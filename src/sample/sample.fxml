@@ -1,0 +1,13 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <children>
+        <TextField fx:id="textField" prefWidth="100" maxWidth="100"/>
+        <StackPane fx:id="stackPane" prefWidth="100">
+            <Button fx:id="btn" prefWidth="100" onAction="#click"/>
+        </StackPane>
+    </children>
+</VBox>
